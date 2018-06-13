@@ -26,8 +26,8 @@ class BinarySearchWORecursion {
      * @param search the element needs to search
      */
     static void binarySearch(int size, int[] arrayToSearch, int search) {
-        long first = 0
-        long last = size - 1;
+        int first = 0
+        int last = size - 1;
         int mid = (first + last) /2
         while (first <= last) {
             if (search == arrayToSearch[mid]) {
