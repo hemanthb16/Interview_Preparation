@@ -30,7 +30,6 @@ class BinarySearchWORecursion {
         long last = size - 1;
         int mid = (first + last) /2
         while (first <= last) {
-            println 'loop inside'
             if (search == arrayToSearch[mid]) {
                 println " Found $mid"
                 break
