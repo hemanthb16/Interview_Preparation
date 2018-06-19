@@ -4,6 +4,10 @@ package com.ds.examples
  * Sorts the array of elements by comparing the one by one, if first one greater than second then it will swap.
  *
  * For every iteration we will move big number to last position up to unsorted position
+ *
+ * Time complexity - Worst case O(N^2)
+ *
+ * @Author Hemanth Kumar
  */
 class BubbleSort {
 
@@ -15,13 +19,18 @@ class BubbleSort {
                     swap(intArray, i, i + 1);
                 }
             }
-            println intArray
         }
         for (int i = 0; i < intArray.length; i++) {
             println intArray[i]
         }
     }
 
+    /**
+     * Method to swap array elements
+     * @param intArray the intArray need to swap
+     * @param i the element to swap
+     * @param j the element to swap
+     */
     static void swap(int[] intArray, int i, int j) {
         if (i == j) {
             return

@@ -6,6 +6,8 @@ package com.ds.examples
  * Functionality: It will check element one by one, if found prints index
  *
  * Time complexity : Worst case - O(n), Best case - O(1)
+ *
+ * @Author Hemanth Kumar
  */
 class LinearSearch {
 

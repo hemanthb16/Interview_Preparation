@@ -2,7 +2,12 @@ package com.ds.examples
 
 /**
  * sorts the elements by comparing every element with big element, and if any found big than the swap index will change
+ *
+ * Time complexity - Worst case O(N^2)
+ *
+ * @Author Hemanth Kumar
  */
+
 class SelectionSort {
 
     public static void main(String[] args) {

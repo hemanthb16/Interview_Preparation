@@ -11,6 +11,8 @@ package com.ds.examples
  *                   O(1) - Best case
  *
  * Note: Array should be sorted in asc order.
+ *
+ * @Author Hemanth Kumar
  */
 class BinarySearchWORecursion {
 
